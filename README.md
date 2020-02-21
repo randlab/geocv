@@ -12,10 +12,14 @@ The input data required to reproduce the results is in `data` directory.
 The reference outputs of jupyter notebooks are in the `reference` directory.
 
 ## Reproducing the workflow
+The directories `samples`, `output` and `figures` are empty. They can be populated by running notebooks.
+
 Run notebooks in the following order:
 - preprocessing,
 - results,
 - analysis.
+
+The generated output should be the same as that in the `reference`.
 
 The notebook `split-k-fold.ipynb` is only for producing a figure for publication.
 
