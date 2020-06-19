@@ -1,9 +1,17 @@
 # Cross-validation of geostatistical simulations
 
-## Installation
-Requires python3.6 or newer. Use pip to install `pip install -r requirements.txt`.
+This repository contains data and code illustrating the following work:
+A framework for the cross-validation of categorical geostatistical simulations by Przemysław Juda, Philippe Renard, and Julien Straubhaar.
+
+## Reproducing environment
+The workflow is presented in jupyter notebooks.
+Python 3.6.9 was used to complete the study.
+The best is to start with an empty virtual environment
+and install all packages.
+In order to reproduce the environment, 
+use pip to install the requirements: `pip install -r requirements.txt`.
+
 This will install jupyter notebook and required dependencies to run notebooks.
-A geone package is required but it is not yet available publicly. It will be released soon.
 
 ## Data
 The input data required to reproduce the results is in `data` directory.
@@ -15,11 +23,8 @@ The reference outputs of jupyter notebooks are in the `reference` directory.
 The directories `samples`, `output` and `figures` are empty. They can be populated by running notebooks.
 
 Run notebooks in the following order:
-- preprocessing,
-- results,
-- analysis.
+- 1-preprocessing.ipynb,
+- 2-results.ipynb,
+- 3-analysis.ipynb.
 
-The generated output should be the same as that in the `reference`.
-
-The notebook `split-k-fold.ipynb` is only for producing a figure for publication.
-
+The generated output should be the same as that in the `reference` directory.
