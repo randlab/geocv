@@ -1,4 +1,4 @@
-# Cross-validation of geostatistical simulations
+# geocv: Examples of systematic cross-validation of categorical geostatistical simulations
 
 This repository contains data and code illustrating the following work:
 A framework for the cross-validation of categorical geostatistical simulations by Przemysław Juda, Philippe Renard, and Julien Straubhaar.
