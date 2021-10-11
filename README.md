@@ -6,12 +6,15 @@ The version of the data and the software cited by the paper: [![DOI](https://zen
 
 ## Summary of the workflow
 
-We recommend using 5-fold cross-validation and quadratic (Brier) score.
+We recommend using stratified 5-fold cross-validation and quadratic (Brier) score.
 The spatial dataset is first divided into five subsets.
 
+![5-fold split](assets/fivefold.jpg)
 
 Then, during each of 5 iterations, one subset is removed from data (it becomes validation set),
 and the spatial simulations are performed.
+
+![CV iteration](assets/simulation.jpg)
 
 The simulation outcomes are compared with the true values from the reference set
 by means of the quadratic score (aka Brier score).
